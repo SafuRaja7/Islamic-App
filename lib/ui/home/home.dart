@@ -41,6 +41,38 @@ class Home extends StatelessWidget {
                   ),
                   height: height * .5,
                   width: width * .9,
+                  child: Column(
+                    children: [
+                      const Gap(10),
+                      Container(
+                        height: height * .05,
+                        width: width * .4,
+                        decoration: BoxDecoration(
+                          color: Colors.grey,
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                      ),
+                      const Gap(20),
+                      Container(
+                        height: height * .25,
+                        width: width * .4,
+                        decoration: BoxDecoration(
+                          color: Colors.grey,
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                      ),
+                      const Gap(20),
+                      Container(
+                        height: height * .05,
+                        width: width * .4,
+                        decoration: BoxDecoration(
+                          color: Colors.grey,
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                      ),
+                      const Gap(20),
+                    ],
+                  ),
                 ),
               ),
               const Gap(10),
